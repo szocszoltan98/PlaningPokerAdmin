@@ -3,16 +3,20 @@ package com.example.planingpokeradmin;
 public class Admin {
     String admiId;
     String adminName;
+    String adminGroup;
 
-    public Admin(){
+    public Admin(){//ures konstruktor
 
     }
 
-    public Admin(String admiId, String adminName) {
+    //konstruktor
+    public Admin(String admiId, String adminName,String adminGroup) {
         this.admiId = admiId;
         this.adminName = adminName;
+        this.adminGroup=adminGroup;
     }
 
+    //getter metodusok
     public String getAdmiId() {
         return admiId;
     }
@@ -21,8 +25,7 @@ public class Admin {
         return adminName;
     }
 
-
-
-
-
+    public String getAdminGroup() {
+        return adminGroup;
+    }
 }

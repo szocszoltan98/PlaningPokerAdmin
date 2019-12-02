@@ -27,6 +27,17 @@
         android:id="@+id/edt_name"
         />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="25dp"
+        android:id="@+id/edt_groupName"
+        android:hint="Group Name"
+
+
+        />
+
 
     <Button
         android:layout_width="wrap_content"
@@ -35,6 +46,18 @@
         android:layout_marginTop="220dp"
         android:text="Login"
         android:id="@+id/btn_login"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Createa group"
+        android:layout_marginTop="280dp"
+        android:id="@+id/btn_createG"
+
+
+
         />
 
 </RelativeLayout>
